@@ -3,22 +3,26 @@
   display: none;
 } 
 
-#wall #tag-2 {
+body #wall #tag-2 {
   display: none;
 } 
 
-#wall .slick wicked {
+div#wall #tag-3.slick.wicked {
   display: none;
-} 
+}
 
-#wall #tag-4 {
+#wall .parent #tag-4 {
   display: none;
-} 
+}
 
-#wall #tag-6 {
+body div#wall .parent #tag-5.slick {
   display: none;
-} 
+}
 
-#wall #tag-7 {
+body div#wall div.parent div:last-child div#tag-6 {
   display: none;
-} 
+}
+
+html body div#wall div.parent div > #tag-7.slick {
+  display: none;
+}
